@@ -19,6 +19,9 @@ normal
 _itálico_
 ~~riscado~~
 
+image
+
+![alt image text](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.steves-digicams.com%2Fblog%2Fwp-content%2Fuploads%2F2017%2F10%2FNikon_D850_Sample_13.jpg&f=1&nofb=1)
 
 `inline code`
 
