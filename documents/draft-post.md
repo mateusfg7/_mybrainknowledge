@@ -17,6 +17,7 @@ tags: 'title4test, content4test, code4test'
 normal
 **negrito**
 _itálico_
+~~riscado~~
 
 
 `inline code`
