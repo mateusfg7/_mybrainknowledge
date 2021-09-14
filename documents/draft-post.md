@@ -152,3 +152,17 @@ Sample footnote [^1], sample another footnote [^another]
 [^1]: Just a footnote
 
 [^another]: Just one more footnote
+
+
+Custom variables
+
+[var]: This text was inside a variable
+
+Text: [var]
+
+
+Variable for images
+
+[image]: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.steves-digicams.com%2Fblog%2Fwp-content%2Fuploads%2F2017%2F10%2FNikon_D850_Sample_13.jpg&f=1&nofb=1
+
+![image with sample image][image]
