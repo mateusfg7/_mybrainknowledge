@@ -1,7 +1,7 @@
 ---
 title: 'Draft Post'
 date: '0001-01-01'
-lastUpdate: '2021-09-06'
+lastUpdate: '2021-09-14'
 description: 'Post made for test markdown render'
 category: 'Draft'
 tags: 'title4test, content4test, code4test'
@@ -143,3 +143,10 @@ separation
 ---
 
 foo
+
+
+
+Sample footnote [^1], sample another footnote [^another]
+
+[^1]: Just a footnote
+[^another]: Just one more footnote
