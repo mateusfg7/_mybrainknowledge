@@ -149,4 +149,5 @@ foo
 Sample footnote [^1], sample another footnote [^another]
 
 [^1]: Just a footnote
+
 [^another]: Just one more footnote
