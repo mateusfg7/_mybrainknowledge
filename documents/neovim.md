@@ -227,9 +227,9 @@ _Usage_: Padroniza configuração de editores através do arquivo `.editorconfig
 
 referencias:
 
-Installing Neovim: [_https://github.com/neovim/neovim/wiki/Installing-Neovim_](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+Installing Neovim: [https://github.com/neovim/neovim/wiki/Installing-Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) [[_archive_](https://web.archive.org/web/20210918162758/https://github.com/neovim/neovim/wiki/Installing-Neovim)]
 
-How to find a Word in Vim or vi text editor: [_https://www.cyberciti.biz/faq/find-a-word-in-vim-or-vi-text-editor/_](https://www.cyberciti.biz/faq/find-a-word-in-vim-or-vi-text-editor/)
+How to find a Word in Vim or vi text editor: [https://www.cyberciti.biz/faq/find-a-word-in-vim-or-vi-text-editor/](https://www.cyberciti.biz/faq/find-a-word-in-vim-or-vi-text-editor/) [[_archive_](https://web.archive.org/web/20210918162917/https://www.cyberciti.biz/faq/find-a-word-in-vim-or-vi-text-editor/)]
 
-How to Install NeoVim and Plugins with vim-plug: [_https://www.linode.com/docs/guides/how-to-install-neovim-and-plugins-with-vim-plug/_](https://www.linode.com/docs/guides/how-to-install-neovim-and-plugins-with-vim-plug/)
+How to Install NeoVim and Plugins with vim-plug: [https://www.linode.com/docs/guides/how-to-install-neovim-and-plugins-with-vim-plug/](https://www.linode.com/docs/guides/how-to-install-neovim-and-plugins-with-vim-plug/) [[_archive_](https://web.archive.org/web/20210918163307/https://www.linode.com/docs/guides/how-to-install-neovim-and-plugins-with-vim-plug/)]
 
