@@ -89,5 +89,5 @@ iex> f.(-1, 3)
 
 ## referencies
 
-Elixir Conditions: [_https://elixir-lang.org/getting-started/case-cond-and-if.html_](https://elixir-lang.org/getting-started/case-cond-and-if.html)
+Elixir Conditions: [https://elixir-lang.org/getting-started/case-cond-and-if.html](https://elixir-lang.org/getting-started/case-cond-and-if.html) [[_archive_](https://web.archive.org/web/20210920215626/https://elixir-lang.org/getting-started/case-cond-and-if.html)]
 
