@@ -58,8 +58,8 @@ await App.listen(
 ---
 ## referências
 
-How To Create an HTTPS Server on Localhost using Express: [_https://medium.com/@nitinpatel_20236/how-to-create-an-https-server-on-localhost-using-express-366435d61f28_](https://medium.com/@nitinpatel_20236/how-to-create-an-https-server-on-localhost-using-express-366435d61f28)
+How To Create an HTTPS Server on Localhost using Express: [https://medium.com/@nitinpatel_20236/how-to-create-an-https-server-on-localhost-using-express-366435d61f28](https://medium.com/@nitinpatel_20236/how-to-create-an-https-server-on-localhost-using-express-366435d61f28) [[_archive_](https://web.archive.org/web/20210920213433/https://medium.com/@nitinpatel_20236/how-to-create-an-https-server-on-localhost-using-express-366435d61f28)]
 
-oak docs: [_https://github.com/oakserver/oak_](https://github.com/oakserver/oak)
+oak docs: [https://github.com/oakserver/oak](https://github.com/oakserver/oak) [[_archive_](https://web.archive.org/web/20210920213559/https://github.com/oakserver/oak)]
 
-OpenSSL Tutorial: How Do SSL Certificates, Private Keys, & CSRs Work?: [_https://phoenixnap.com/kb/openssl-tutorial-ssl-certificates-private-keys-csrs_](https://phoenixnap.com/kb/openssl-tutorial-ssl-certificates-private-keys-csrs)
+OpenSSL Tutorial: How Do SSL Certificates, Private Keys, & CSRs Work?: [https://phoenixnap.com/kb/openssl-tutorial-ssl-certificates-private-keys-csrs](https://phoenixnap.com/kb/openssl-tutorial-ssl-certificates-private-keys-csrs) [[_archive_](https://web.archive.org/web/20210920214842/https://phoenixnap.com/kb/openssl-tutorial-ssl-certificates-private-keys-csrs)]
