@@ -6,6 +6,13 @@ category: Python
 tags: 'database, sqlite, crud'
 ---
 
+[screenshot_1]: https://i.ibb.co/XYnddkT/screenshot-1.png
+[screenshot_2]: https://i.ibb.co/9Ns0dDn/screenshot-2.png
+[screenshot_3]: https://i.ibb.co/t3125Pm/screenshot-3.png
+[screenshot_4]: https://i.ibb.co/cFTnyVT/screenshot-4.png
+[screenshot_5]: https://i.ibb.co/C9bS2D3/screenshot-5.png
+[screenshot_6]: https://i.ibb.co/7SDzLVC/screenshot-6.png
+
 ## Connection
 
 First, we need to create a connection with database:
@@ -41,11 +48,11 @@ After running this on python3 interactive shell we will receive the version of s
 >>>
 ```
 
-![image 1](/assets/post/sqlite3-with-python/screenshot_1.png)
+![../assets/sqlite3-with-python/screenshot_1][screenshot_1]
 
 If you pass file name as ':memory:', the database will be saved on the memory of computer:
 
-![image 2](/assets/post/sqlite3-with-python/screenshot_2.png)
+![/assets/sqlite3-with-python/screenshot_2][screenshot_2]
 
 
 ## Refactor 1
@@ -137,11 +144,11 @@ after, let's create the tables:
 
 If we run `ls` we will see that `database.db` was created:
 
-![screenshot 3](/assets/post/sqlite3-with-python/screenshot_3.png)
+![/assets/sqlite3-with-python/screenshot_3][screenshot_3]
 
 Now we can use the command `sqlite3` passing our database as a param, then, run the `.tables` command to see the tables that we created:
 
-![screenshot 4](/assets/post/sqlite3-with-python/screenshot_4.png)
+![/assets/sqlite3-with-python/screenshot_4][screenshot_4]
 
 ## Refactor 2
 
@@ -277,7 +284,7 @@ Use the `SELECT` statement to get data from `projects` table:
 SELECT * FROM projects;
 ```
 
-![screenshot 5](/assets/post/sqlite3-with-python/screenshot_5.png)
+![/assets/sqlite3-with-python/screenshot_5][screenshot_5]
 
 Use the same statement to get data from `tasks` table:
 
@@ -285,7 +292,7 @@ Use the same statement to get data from `tasks` table:
 SELECT * FROM tasks;
 ```
 
-![screenshot 6](/assets/post/sqlite3-with-python/screenshot_6.png)
+![/assets/sqlite3-with-python/screenshot_6][screenshot_6]
 
 
 ---
