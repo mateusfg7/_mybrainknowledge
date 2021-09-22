@@ -7,6 +7,33 @@ category: 'PGP-GPG'
 tags: 'hash, cryptography, asymmetric-cipher, security, how-to'
 ---
 
+[screenshot1]: https://i.ibb.co/qyQDhnw/screenshot1.png
+[screenshot2]: https://i.ibb.co/4m5tQ0d/screenshot2.png
+[screenshot3]: https://i.ibb.co/c3T3v8B/screenshot3.png
+[screenshot4]: https://i.ibb.co/GxRWRkk/screenshot4.png
+[screenshot5]: https://i.ibb.co/rFGhmGs/screenshot5.png
+[screenshot6]: https://i.ibb.co/5YYxGZc/screenshot6.png
+[screenshot7]: https://i.ibb.co/1RF0p2R/screenshot7.png
+[screenshot8]: https://i.ibb.co/S0MgDzj/screenshot8.png
+[screenshot9]: https://i.ibb.co/N6x7QP3/screenshot9.png
+[screenshot10]: https://i.ibb.co/Xjk4ghg/screenshot10.png
+[screenshot11]: https://i.ibb.co/Lr4dtbw/screenshot11.png
+[screenshot12]: https://i.ibb.co/CKxxrt6/screenshot12.png
+[screenshot13]: https://i.ibb.co/j6h2jn4/screenshot13.png
+[screenshot14]: https://i.ibb.co/Ldcwq3f/screenshot14.png
+[screenshot15]: https://i.ibb.co/vVDkg47/screenshot15.png
+[screenshot16]: https://i.ibb.co/DLDJjR5/screenshot16.png
+[screenshot17]: https://i.ibb.co/t2CC6Tt/screenshot17.png
+[screenshot18]: https://i.ibb.co/BfVw75K/screenshot18.png
+[screenshot19]: https://i.ibb.co/ZzrZ7nd/screenshot19.png
+[screenshot20]: https://i.ibb.co/zXBX0rp/screenshot20.png
+[screenshot21]: https://i.ibb.co/NCjrhLk/screenshot21.png
+[screenshot22]: https://i.ibb.co/4Ys1Nqk/screenshot22.png
+[screenshot23]: https://i.ibb.co/KKmXtqc/screenshot23.png
+[screenshot24]: https://i.ibb.co/HYxWv6J/screenshot24.png
+[screenshot25]: https://i.ibb.co/hCvFxgN/screenshot25.png
+
+
 # Introdução
 
 ## O GPG
@@ -57,7 +84,7 @@ O software pedirá para que você digite a senha a ser usada, neste caso estou u
 
 Note que foi criado um arquivo com a extensão `.gpg` (`mensagem.txt.gpg`), esse arquivo é o arquivo criptografado, agora é só deletar o arquivo original, e ficar apenas com o arquivo criptografado.
 
-![](/assets/post/gnupg/screenshot1.png)
+![/assets/gnupg/screenshot1.png][screenshot1]
 
 ## Decrypt
 Para descriptografar a mensagem, usamos o seguinte comando:
@@ -68,7 +95,7 @@ Opções:
 - `--output [arquivo]`: _Define o arquivo de saída a partir do arquivo criptografado._
 - `--decrypt [arquivo]`: _Define o arquivo a ser descriptografado._
 
-![](/assets/post/gnupg/screenshot2.png)
+![/assets/gnupg/screenshot2.png][screenshot2]
 
 # Criptografia Assimétrica
 
@@ -142,7 +169,7 @@ uid                      Oh tal doh Mattewz (mateusfg7) <ma
 sub   rsa3072 2021-09-03 [E] [expires: 2021-09-04]
 ```
 
-![](/assets/post/gnupg/screenshot3.png)
+![/assets/gnupg/screenshot3.png][screenshot3]
 
 ## A Chave Pública
 
@@ -151,7 +178,7 @@ A key-pair já foi gerada e salva no nosso keyring (chaveiro), agora queremos vi
 ```text
 $ gpg --list-key
 ```
-![](/assets/post/gnupg/screenshot7.png)
+![/assets/gnupg/screenshot7.png][screenshot7]
 
 Irá aparecer várias chaves, e por último a chave que acabamos de criar. Podemos extrair algumas informações importantes da nossa chave, como:
 
@@ -159,7 +186,7 @@ Irá aparecer várias chaves, e por último a chave que acabamos de criar. Podem
 - A data de criação da chave: **2021-09-03**.
 - A data de expiração da chave: **2021-09-04**.
 - E o fingerprint (digital) da chave: `D3EED251C38AE4F4F3EE39310DA9480F7387D94C`.
-![](/assets/post/gnupg/screenshot8.png)
+![/assets/gnupg/screenshot8.png][screenshot8]
 
 É com o fingerprint da chave que usaremos para fazer algumas operações com ela.
 
@@ -169,17 +196,17 @@ Primeiro precisamos exportar nossa chave para poder compartilhar com outras pess
 
 _sem a opção `--armor`_
 
-![](/assets/post/gnupg/screenshot5.png)
+![/assets/gnupg/screenshot5.png][screenshot5]
 
 _com a opção `--armor`_
 
-![](/assets/post/gnupg/screenshot4.png)
+![/assets/gnupg/screenshot4.png][screenshot4]
 
 Essa saída não é muito fácil de decorar, então costumamos a direcionar essa saída para um arquivo. Para isto usamos a opção `--output`, esse comando por sua vez recebe o nome do arquivo de destino como argumento. Por convenção, criamos esse arquivo com a extensão `.pub`, de _public_. Logo após, passaremos o fingerprint da chave que queremos exportar. Nosso comando ficará assim:
 ```text
 $ gpg --export --armor --output minha_chave.pub D3EED251C38AE4F4F3EE39310DA9480F7387D94C
 ```
-![](/assets/post/gnupg/screenshot6.png)
+![/assets/gnupg/screenshot6.png][screenshot6]
 
 É esse arquivo que disponibilizaremos de forma pública.
 
@@ -189,7 +216,7 @@ Para importar uma chave pública para nossa keyring usamos a opção `--import`,
 ```text
 $ gpg --import minha_chave.pub
 ```
-![](/assets/post/gnupg/screenshot25.png)
+![/assets/gnupg/screenshot25.png][screenshot25]
 
 ### Publicar
 
@@ -200,14 +227,14 @@ $ gpg --send-keys D3EED251C38AE4F4F3EE39310DA9480F7387D94C
 ```
 No meu caso minha chave foi enviada para [hkps://keys.openpgp.org](hkps://keys.openpgp.org), se o seu for diferente não tem problema.
 
-![](/assets/post/gnupg/screenshot21.png)
+![/assets/gnupg/screenshot21.png][screenshot21]
 
 Para pesquisar uma chave bastar usar a opção `--search-keys` seguido do fingerprint da chave ou o email da pessoa que você quer pesquisar:
 
 ```text
 gpg --search-keys D3EED251C38AE4F4F3EE39310DA9480F7387D94C
 ```
-![](/assets/post/gnupg/screenshot22.png)
+![/assets/gnupg/screenshot22.png][screenshot22]
 
 ### Editar
 
@@ -219,8 +246,8 @@ $ gpg --edit-key D3EED251C38AE4F4F3EE39310DA9480F7387D94C
 
 Após rodarmos o comando, ira abrir um shell interativo do próprio gpg, com inúmeros comandos e opções para poder editar, para ver todas, basta digitar o comando `help`.
 
-![](/assets/post/gnupg/screenshot9.png)
-![](/assets/post/gnupg/screenshot10.png)
+![/assets/gnupg/screenshot9.png][screenshot9]
+![/assets/gnupg/screenshot10.png][screenshot10]
 
 Para exemplificar, mudarei a data de expiração da minha chave para 0, ou seja, vou desativa-la. Após rodar o comando, será pedido o tempo para chave expirar e a senha da chave, para poder realizar as alterações.
 
@@ -248,11 +275,11 @@ gpg: WARNING: Your encryption subkey expires soon.
 gpg: You may want to change its expiration date too.
 ```
 
-![](/assets/post/gnupg/screenshot11.png)
+![/assets/gnupg/screenshot11.png][screenshot11]
 
 Para salva as alterações e sair do modo interativo, basta digitar `quit`. Pronto, minha chave agora não tem mais uma data de expiração.
 
-![](/assets/post/gnupg/screenshot12.png)
+![/assets/gnupg/screenshot12.png][screenshot12]
 
 
 ## Usando o key-pair
@@ -263,7 +290,7 @@ Para criptografar um arquivo, usamos a opção `--encrypt`, seguido da opção `
 ```text
 $ gpg --encrypt --recipient 5863874C7BBAFFE7829FB89C4151BFF1C8B0B523 mensagem.txt
 ```
-![](/assets/post/gnupg/screenshot13.png)
+![/assets/gnupg/screenshot13.png][screenshot13]
 
 
 
@@ -274,7 +301,7 @@ Para descriptografar um arquivo usando a chave privada, basta usar a opção `--
 ```text
 $ gpg --decrypt mensagem.txt.gpg
 ```
-![](/assets/post/gnupg/screenshot14.png)
+![/assets/gnupg/screenshot14.png][screenshot14]
 
 ### Assinando mensagens
 
@@ -284,24 +311,24 @@ Digamos que escrevi algo muito importante para a humanidade, salvei em um arquiv
 ```text
 $ gpg --clear-sign --default-key D3EED251C38AE4F4F3EE39310DA9480F7387D94C mensagem.txt
 ```
-![](/assets/post/gnupg/screenshot15.png)
+![/assets/gnupg/screenshot15.png][screenshot15]
 
 Para verificar a mensagem, basta usar a opção `--verify`, e o arquivo assinado:
 ```text
 $ gpg --verify mensagem.txt.asc
 ```
-![](/assets/post/gnupg/screenshot16.png)
+![/assets/gnupg/screenshot16.png][screenshot16]
 
 Se alguém alterar a mensagem, a verificação de assinatura irá falhar.
 
-![](/assets/post/gnupg/screenshot17.png)
+![/assets/gnupg/screenshot17.png][screenshot17]
 
 Também podemos assinar um arquivo binário, como PDF, imagem, vídeos, executáveis binários, etc. O processo para assinar esse tipo de arquivo será um pouco diferente porque não se abre um arquivo binário para ler, então o gpg criará outro arquivo separado onde contem a assinatura, e para verificarmos se nosso binário é válido, precisamos tanto do arquivo original quanto do arquivo de assinatura. Primeiro criaremos um arquivo binário com dados aleatórios para fins educacionais, mas o processo pode ser feito com qualquer arquivo binário.
 
 ```text
 $ dd if=/dev/zero bs=1000000 count=10 > binary.dat
 ```
-![](/assets/post/gnupg/screenshot18.png)
+![/assets/gnupg/screenshot18.png][screenshot18]
 
 Para assinarmos arquivos binários usaremos a opção `--sign`, também usaremos a opção `--default-key` com o fingerprint da chave que usaremos para assinar o arquivo, e o arquivo:
 
@@ -310,11 +337,11 @@ $ gpg --sign --default-key D3EED251C38AE4F4F3EE39310DA9480F7387D94C binary.dat
 ```
 Com isso o gpg gerará um outro binário contendo a assinatura do arquivo.
 
-![](/assets/post/gnupg/screenshot19.png)
+![/assets/gnupg/screenshot19.png][screenshot19]
 
 Para verificar a assinatura o processo é mesmo citado acima.
 
-![](/assets/post/gnupg/screenshot20.png)
+![/assets/gnupg/screenshot20.png][screenshot20]
 
 ## Backup
 
@@ -324,13 +351,13 @@ O backup da chave privada é extremamente importante, pois se você perder o dis
 $ gpg --output private_key.key  --export-secret-keys D3EED251C38AE4F4F3EE39310DA9480F7387D94C
 ```
 
-![](/assets/post/gnupg/screenshot23.png)
+![/assets/gnupg/screenshot23.png][screenshot23]
 
 Para importa-la basta usar a opção `--import` e o arquivo:
 ```text
 $ gpg --import private_key.key
 ```
-![](/assets/post/gnupg/screenshot24.png)
+![/assets/gnupg/screenshot24.png][screenshot24]
 
 # Conclusão 
 Esse foi só um apanhado do básico do GnuPG, há muito mais a se fazer com essa ferramenta. Para conhecer melhor ela basta usar a opção `--help`, que será listada todas as opções possíveis, ou até, no caso de sistemas Linux, usar o comando `man` seguido do programa que você quer ver o manual, no caso:
