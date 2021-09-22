@@ -166,12 +166,12 @@ If you know more softwares, make a contribution to the list at https://github.co
 
 # referencies
 
-- _https://privacytools.io/_
-- _https://privacytools.io/software/cloud/_
-- _https://privacytools.io/software/networks/_
-- _https://privacytools.io/software/real-time-communication/_
-- _https://privacytools.io/software/passwords/_
-- _https://www.geckoandfly.com/24024/self-hosted-cloud-storage/_
-- _https://www.reddit.com/r/selfhosted/_
-- _https://www.reddit.com/r/selfhosted/comments/nfkeju/organizr_to_heimdall_to_sui_and_now_homer_my/_
-- _https://www.reddit.com/r/selfhosted/comments/nhlzww/my_dashboard_2021_edition_i_love_self_hosting/_
+- https://privacytools.io/ [[_archive_](https://web.archive.org/web/20210922131626/https://privacytools.io/)]
+- https://privacytools.io/software/cloud/ [[_archive_](https://web.archive.org/web/20210922131749/https://privacytools.io/software/cloud/)]
+- https://privacytools.io/software/networks/ [[_archive_](https://web.archive.org/web/20210922131730/https://privacytools.io/software/networks/)]
+- https://privacytools.io/software/real-time-communication/ [[_archive_](https://web.archive.org/web/20210922131742/https://privacytools.io/software/real-time-communication/)]
+- https://privacytools.io/software/passwords/ [[_archive_](https://web.archive.org/web/20210922131748/https://privacytools.io/software/passwords/)]
+- https://www.geckoandfly.com/24024/self-hosted-cloud-storage/ [[_archive_](https://web.archive.org/web/20210629145200/https://www.geckoandfly.com/24024/self-hosted-cloud-storage/)]
+- https://www.reddit.com/r/selfhosted/ [[_archive_](https://web.archive.org/web/20210916142932/https://www.reddit.com/r/selfhosted/)]
+- https://www.reddit.com/r/selfhosted/comments/nfkeju/organizr_to_heimdall_to_sui_and_now_homer_my/ [[_archive_](https://web.archive.org/web/20210518195440/https://www.reddit.com/r/selfhosted/comments/nfkeju/organizr_to_heimdall_to_sui_and_now_homer_my/)]
+- https://www.reddit.com/r/selfhosted/comments/nhlzww/my_dashboard_2021_edition_i_love_self_hosting/ [[_archive_](https://web.archive.org/web/20210610021807/https://www.reddit.com/r/selfhosted/comments/nhlzww/my_dashboard_2021_edition_i_love_self_hosting/)]

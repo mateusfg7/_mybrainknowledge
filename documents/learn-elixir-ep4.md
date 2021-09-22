@@ -84,5 +84,5 @@ iex> "he" <> "llo"
 
 ## referencies
 
-Binaries, strings, and charlists: [_https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html_](https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html)
+Binaries, strings, and charlists: [https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html](https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html) [[_archive_](https://web.archive.org/web/20210920215640/https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html)]
 

@@ -6,6 +6,11 @@ category: 'Python'
 tags: 'library, subprocess, process, linux, cli'
 ---
 
+[screenshot_1]: https://i.ibb.co/xXT9dmc/screenshot-1.png
+[screenshot_2]: https://i.ibb.co/3c7D4xz/screenshot-2.png
+[screenshot_3]: https://i.ibb.co/GH9sgFb/screenshot-3.png
+[screenshot_4]: https://i.ibb.co/qC5v75L/screenshot-4.png
+
 # Introduction
 
 A subprocess is OS process that runs inside of another process father. The `subprocess` module allows to run subprocess with Python.
@@ -16,7 +21,7 @@ We can use `subprocess` to run shell commands in a better way than `os.system` m
 
 Now, we can just run a command to see the files in the current folder. In Linux we will run the `ls` command, like this:
 
-![](/assets/post/python-subprocess/screenshot_1.png)
+![/assets/python-subprocess/screenshot_1][screenshot_1]
 
 _The `-l` option is to show the details of the files._
 
@@ -27,7 +32,7 @@ subprocess.call(['ls', '-l'])
 ```
 _Otherwise we can use a simple string. e.g.: `'ls -l'`_
 
-![](/assets/post/python-subprocess/screenshot_2.png)
+![/assets/python-subprocess/screenshot_2][screenshot_2]
 
 
 #  Check command output
@@ -42,7 +47,7 @@ try:
 except Exception as E:  
     print(E)
 ```
-![](/assets/post/python-subprocess/screenshot_3.png)
+![/assets/python-subprocess/screenshot_3][screenshot_3]
 
 
 # Get the command output
@@ -57,7 +62,7 @@ o = subprocess.check_output(['cat', 'file_1.py'])
 print("Output:", o)
 ```
 
-![](/assets/post/python-subprocess/screenshot_4.png)
+![/assets/python-subprocess/screenshot_4][screenshot_4]
 
 # Popen: icing on the cake
 
@@ -76,6 +81,6 @@ We are getting the `stdout` object of `Popen`, and running the `read()` function
 
 # referencies
 
-Aulas Python - 114 - Ferramentas de Sistema X: Módulo subprocess: [_https://www.youtube.com/watch?v=jgmIUa2_wSY_](https://www.youtube.com/watch?v=jgmIUa2_wSY)
+Aulas Python - 114 - Ferramentas de Sistema X: Módulo subprocess: [https://www.youtube.com/watch?v=jgmIUa2_wSY](https://www.youtube.com/watch?v=jgmIUa2_wSY)
 
 

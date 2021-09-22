@@ -121,8 +121,8 @@ O bloco **SEND TX** é o bloco que vai executar a transação, ele recebe o par�
 ---
 ## referências
 
-Austin Griffith: [_https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi_](https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi)
+Austin Griffith: [https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi](https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi)
 
-eth-hash: [_https://github.com/ethereum/eth-hash_](https://github.com/ethereum/eth-hash)
+eth-hash: [https://github.com/ethereum/eth-hash](https://github.com/ethereum/eth-hash) [[_fork_](https://github.com/mateusfg7Forks/eth-hash)]
 
 

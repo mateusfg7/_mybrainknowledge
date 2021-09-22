@@ -22,4 +22,4 @@ This problem consists of black background insted the wallpaper on xfce4, apparen
 
 # references
 
-Desktop background appears black when using XFCE: [_https://unix.stackexchange.com/questions/151471/desktop-background-appears-black-when-using-xfce_](https://unix.stackexchange.com/questions/151471/desktop-background-appears-black-when-using-xfce)
+Desktop background appears black when using XFCE: [https://unix.stackexchange.com/questions/151471/desktop-background-appears-black-when-using-xfce](https://unix.stackexchange.com/questions/151471/desktop-background-appears-black-when-using-xfce) [[_archive_](https://web.archive.org/web/20210922134420/https://unix.stackexchange.com/questions/151471/desktop-background-appears-black-when-using-xfce)]
