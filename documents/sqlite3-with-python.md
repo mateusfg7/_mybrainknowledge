@@ -298,7 +298,7 @@ SELECT * FROM tasks;
 ---
 ## referencies:
 
-SQLite Python: [_https://www.sqlitetutorial.net/sqlite-python/_](https://www.sqlitetutorial.net/sqlite-python/)
-  - Creating a New Database: [_https://www.sqlitetutorial.net/sqlite-python/creating-database/_](https://www.sqlitetutorial.net/sqlite-python/creating-database/)
-  - Creating Tables: [_https://www.sqlitetutorial.net/sqlite-python/create-tables/_](https://www.sqlitetutorial.net/sqlite-python/create-tables/)
-  - Insert data: [_https://www.sqlitetutorial.net/sqlite-python/insert/_](https://www.sqlitetutorial.net/sqlite-python/insert/)
+SQLite Python: [https://www.sqlitetutorial.net/sqlite-python/](https://www.sqlitetutorial.net/sqlite-python/) [[_archive_](https://web.archive.org/web/20210922122212/https://www.sqlitetutorial.net/sqlite-python/)]
+  - Creating a New Database: [https://www.sqlitetutorial.net/sqlite-python/creating-database/](https://www.sqlitetutorial.net/sqlite-python/creating-database/) [[_archive_](https://web.archive.org/web/20210922122523/https://www.sqlitetutorial.net/sqlite-python/creating-database/)]
+  - Creating Tables: [https://www.sqlitetutorial.net/sqlite-python/create-tables/](https://www.sqlitetutorial.net/sqlite-python/create-tables/) [[_archive_](https://web.archive.org/web/20210922122450/https://www.sqlitetutorial.net/sqlite-python/create-tables/)]
+  - Insert data: [https://www.sqlitetutorial.net/sqlite-python/insert/](https://www.sqlitetutorial.net/sqlite-python/insert/) [[_archive_](https://web.archive.org/web/20210922122231/https://www.sqlitetutorial.net/sqlite-python/insert/)]
