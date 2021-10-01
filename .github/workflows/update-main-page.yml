@@ -1,5 +1,8 @@
 name: Update Main Page (mfg-b)
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   update-submodule-on-mfg-b:
