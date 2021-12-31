@@ -3,7 +3,7 @@ title: 'Python Subprocess'
 date: '2021-06-11'
 description: 'Understanding the subprocess lib and their use cases'
 category: 'Python'
-tags: 'library, subprocess, process, linux, cli'
+tags: 'library, subprocess, process, cli'
 ---
 
 [screenshot_1]: https://i.ibb.co/xXT9dmc/screenshot-1.png
