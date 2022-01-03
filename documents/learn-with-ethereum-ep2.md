@@ -31,6 +31,7 @@ tags: 'blockchain, hash, cryptography, tool, asymmetric-cipher, chat'
 
 
 ## Encryption (side quest)
+
 ![/assets/learn-with-ethereum/screenshot_10.png][screenshot_10]
 [_click here to edit this workflow on eth.build_][workflow 5]
 
