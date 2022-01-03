@@ -31,7 +31,7 @@ tags: 'blockchain, hash, cryptography, tool'
 <!--- VARIABLES BLOCK -->
 
 
-Primeiros passos em [eth.build](eth.build)
+Primeiros passos em [eth.build](https://eth.build)
 
 ## Hash Functions
 
