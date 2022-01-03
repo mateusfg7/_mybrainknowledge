@@ -76,9 +76,12 @@ Qualquer mudança no _input_ inicial de qualquer um dos 3 blocos **TEXT** irá a
 **KEY PAIR** é um bloco que consegue gerar uma _private key_, uma _public key_ e um _address_ baseado em um _string_ aleatória (neste caso quem ta gerando uma _string_ aleatória é o bloco **BUTTON**).
 
 Private Key: `0x7eed612b561d9a7a738bd009a810577fd7023842b481b7523af95aa50350dd16`
+
 Public Key: `0x299be7653d60ae3f8a6e5bf003c3989eb626e0f5e4240bae1cd0914da17b441960f99ec90445fbd4e5566b6dc0856ff167fdf65f128eb697a9995fe8ba459da7`
 
-Address: ![/assets/learn-with-ethereum/screenshot_6.png][screenshot_6]
+Address:
+  
+![/assets/learn-with-ethereum/screenshot_6.png][screenshot_6]
 
 ### Sign a message
 
