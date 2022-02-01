@@ -19,10 +19,22 @@ tags: 'title4test, content4test, code4test'
 <p>tag p</p>
 
 <div>
-  content in a div
+  content in a simple div
 </div>
 
-< / HTML TESTS >
+<div align="center">
+ content in a div with align center
+</div>
+
+< iframe-youtube >
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ms1iTZzAutY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+< /iframe-youtube >
+
+< gif-with-tag-img >
+<img src="https://2.bp.blogspot.com/-B7951Pnxrsk/V12Jlk-7yWI/AAAAAAAAnPA/Y0lS0NHADDoAztXWmkzZe411XLtRmEJvwCLcB/s1600/bem%2Bvindo%2Bao%2Bmundo%2Bdas%2Bgambiarras%2Bsacanas.gif" />
+< /gif-with-tag-img >
+
+< /HTML TESTS >
 
 &nbsp;
 
