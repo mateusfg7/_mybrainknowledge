@@ -64,6 +64,22 @@ y = Foo.bar 1
 ^y = x + 1
 ```
 
+sql
+```sql
+SELECT * FROM my_table;
+```
+
+bash
+```bash
+#!/bin/bash
+
+var1=$1
+
+if [ $var1 -gt 5 ]; do
+  echo "Is greather than 5"
+fi
+```
+
 python
 ```python
 def foo(x):
