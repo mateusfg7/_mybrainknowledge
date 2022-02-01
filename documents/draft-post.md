@@ -92,7 +92,7 @@ x = foo(1)
 y = bar(1)
 ```
 
-Js
+Javascript
 ```javascript
 function foo(x) {
   return x + 1;
@@ -104,6 +104,37 @@ function bar(y) {
 
 const x = foo(1);
 const y = bar(1);
+```
+
+Typescript
+```typescript
+function foo(x: number): number {
+  return x +1
+}
+
+const sum: (x: number) => number = foo
+const y: number = sum(1)
+```
+
+Rust
+```rust
+fn factorial(i: u64) -> u64 {
+  match i {
+    0 => 1,
+    n => n * factorial(n-1)
+  }
+}
+
+fn main() {
+  println!("Hello World");
+}
+```
+Go Lang
+```go
+// ZeroBroadcast reports whether addr is 255.255.255.255.
+func (addr ipv4addr) ZeroBroadcast() bool {
+  return addr == 0xFFFFFFFF
+}
 ```
 
 Long Block Quote
