@@ -1,7 +1,7 @@
 ---
 title: 'Draft Post'
 date: '0001-01-01'
-lastUpdate: '2021-09-14'
+lastUpdate: '2022-02-01'
 description: 'Post made for test markdown render'
 category: 'Draft'
 tags: 'title4test, content4test, code4test'
@@ -11,6 +11,18 @@ tags: 'title4test, content4test, code4test'
 ## Title 2
 ### Title 3
 #### Title 4
+
+< HTML TESTS >
+
+<h1> Title with HTML </h1>
+
+<p>tag p</p>
+
+<div>
+  content in a div
+</div>
+
+< / HTML TESTS >
 
 &nbsp;
 
