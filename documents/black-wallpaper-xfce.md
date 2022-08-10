@@ -1,10 +1,10 @@
 ---
 title: 'Black Wallpaper Bug on XFCE4'
 date: '2021-06-21'
-lastUpdate: '2021-06-28'
+lastUpdate: '2022-08-10'
 description: 'Black wallpaper on xfce4 when restart the computer'
 category: 'XFCE'
-tags: 'bug, desktop'
+tags: 'bug, desktop, how-to'
 ---
 
 # How to fix
