@@ -468,4 +468,4 @@ What it does stand for is Selection for Societal Sanity...
 
 # Refs
 
-MGS2 Colonel A.I speech: [_https://www.reddit.com/r/copypasta/comments/9l5ri2/mgs2_colonel_ai_speech/_](https://www.reddit.com/r/copypasta/comments/9l5ri2/mgs2_colonel_ai_speech/) [[Archive]]()
+MGS2 Colonel A.I speech: [_https://www.reddit.com/r/copypasta/comments/9l5ri2/mgs2_colonel_ai_speech/_](https://www.reddit.com/r/copypasta/comments/9l5ri2/mgs2_colonel_ai_speech/) [[Archive]](https://web.archive.org/web/20221116201321/https://www.reddit.com/r/copypasta/comments/9l5ri2/mgs2_colonel_ai_speech/)
